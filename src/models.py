@@ -1,9 +1,14 @@
 import enum
 import os
 import sys
+<<<<<<< HEAD
 from sqlalchemy import Column, ForeignKey, Integer, String, Enum, Table
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
+=======
+from sqlalchemy import Column, ForeignKey, Integer, String
+from sqlalchemy.orm import relationship, declarative_base
+>>>>>>> f76bf520a1fbf70bd87438ad9e35b80bbcf74710
 from sqlalchemy import create_engine
 from eralchemy2 import render_er
 
